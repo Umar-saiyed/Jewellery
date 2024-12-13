@@ -1,0 +1,33 @@
+h1{
+    color: white;
+    text-align: center;
+}
+body{
+    background-image: url("index1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    text-align: center;
+    color: white;
+    font-size:xx-large;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    margin-top: 20px;
+    font-size:x-large;
+}
+
+
+
+form{
+
+
+    border-radius: 50px;
+    color: white;
+    padding: 40px;
+}
+tr{
+    padding: 30px;
+}
+
+

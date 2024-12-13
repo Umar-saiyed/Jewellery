@@ -1,0 +1,22 @@
+body{
+    background-color:url="color.jpg";
+    background-color:brown;
+}
+p{
+    border: 5px solid black ;
+    padding: 10;
+    margin: 20;
+}
+.a{
+    background-color: antiquewhite;
+    margin-left: 20;
+    margin-right: 20;
+}
+.b{
+    background-color: aqua;
+    margin-left: 50;
+    margin-right: 50;
+}
+.c{
+    background-color: bisque;
+}

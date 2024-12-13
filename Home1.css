@@ -1,0 +1,95 @@
+
+.a{
+	display:flex;
+	background-color:rgb(200,145,50);
+}
+
+.u{
+padding-left:1000;}
+
+.f{
+ padding-left:100;
+}
+.z{
+	padding:20;
+	display:flex;
+	gap:50px;
+	margin-left:40px;
+
+}
+body{
+background-color:rgb(50,50,50);
+}
+#b{
+	margin-left:700;
+	padding-bottom:4;
+}
+.b{
+color:green;
+text-decoration:italic;
+padding-top:10;
+margin-top:20;
+}
+
+input{
+	height:30;
+	width:300;
+margin-left:20px;
+}
+e{
+	font-size:20;
+	
+}
+p{
+font-family:arial;
+font-size:30px;
+padding-left:30px;
+}
+
+#a{
+	color:bisque;
+	font-family:ALGERIAN;
+	
+	margin-left:200px;
+	}
+
+.t{
+	background-color:green;
+	margin-left:40;
+	
+}
+.d{
+	gap:50px;
+	display:flex;
+	background-color:gray;
+	font-weight:bold;
+	padding-left:80px;
+}
+a{
+	
+	gap:500;
+	font-family:cursive;
+	font-size:40px;
+	margin-bottom:20px;
+	margin-top:10px;
+	padding-left:10;
+	color:white;
+	 border-radius: 38px;
+	text-decoration:none;	
+}
+a:hover{
+color:rgb(600,850,100);
+}
+a:active{
+	color:rgb(400,600,300)
+}
+footer{
+	background-color:rgb(200,145,50);
+    font-size:30;
+	color:green;
+	font-weight:bold;
+	padding-left:400;
+	}
+	img{
+   border-radius: 38px;
+   }

@@ -1,0 +1,107 @@
+1.) What is the purpose of the main() function in C?
+
+The main() function in C is where the program starts running. 
+It usually returns an int to show if the program finished successfully or not.
+
+
+2.) How to put the comment in C language?
+
+-> In C, you can add comments using two methods:
+Single-line comments: Use // to comment out a single line.
+Multi-line comments: Use /* to start the comment and */ to end it.
+
+
+3.) Write any one difference between compiler and interpreter.
+
+->A compiler translates the entire source code into machine code before execution, 
+while an interpreter translates and executes the code line by line, allowing for immediate execution 
+but generally slower performance.
+
+4.) Draw the diagram and explain the process of compilation of a C program. 3
+->
+Preprocessing:
+The preprocessor handles directives (e.g., #include, #define).
+It produces an expanded source code file, which includes all headers and macro definitions.
+
+Compilation:
+The compiler translates the preprocessed source code into assembly language.
+Syntax and semantic errors are checked during this phase.
+
+Assembly:
+The assembler converts the assembly language code into machine code, 
+creating an object file (e.g., .o or .obj).
+
+Linking:
+The linker combines the object files and resolves references to libraries and other object files.
+It produces the final executable file.
+
+Visualization:
+Source Code → Preprocessor → Preprocessed Code → Compiler → Assembly Code → Assembler → Object File → Linker → Executable File
+This process ensures that your C program is transformed into a runnable format step by step.
+
+drawing baaki 
+
+5.) Compare machine level and assembly level language with example.
+->
+     Feature	       Machine-Level Language	        Assembly-Level Language
+	 
+	 Definition	     Binary code that the CPU    	  Human-readable representation of machine code.
+	                 directly executes.
+				   
+	 Example	    10111000 00000001 00000010  	    MOV AL, 1 (move 1 into register AL)		
+                    (binary)	
+	 Readability    Very difficult for humans to 	   More understandable but still requires 			
+                      read and understand.	             knowledge of architecture. 
+					
+	Portability	     Not portable; specific to a 	   Slightly more portable, but still specific 	
+                     CPU architecture.	                  to a particular architecture.
+				   
+	Instruction Set	Uses binary instructions        	Uses mnemonics that represent machine 		
+                      specific to the CPU.	               instructions.
+					  
+					  
+ Example:
+ 
+  Machine-Level:
+     10111000 00000001 (This might represent a command to move a value into a register.)
+
+  Assembly-Level:
+     MOV AL, 1 (This instruction tells the CPU to move the value 1 into the AL register.)
+Overall, assembly language is a step above machine language, 
+making it easier for programmers to write and understand code while still being closely tied to the hardware.
+
+5. Write a program in C to swap two variables. 4marks
+
+#include <stdio.h>
+
+int main() {
+    int a, b, temp;
+
+    // Input values for a and b
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+
+    // Display original values
+    printf("Before swapping: a = %d, b = %d\n", a, b);
+
+    // Swap using a temporary variable
+    temp = a;
+    a = b;
+    b = temp;
+
+    // Display swapped values
+    printf("After swapping: a = %d, b = %d\n", a, b);
+
+    return 0;
+}
+
+1. What is keywords in C? 1marks
+Keywords in C: Keywords are reserved words in C that have a predefined meaning in the language, 
+such as int, return, if, else, and while. They cannot be used as identifiers (e.g., variable names).
+
+2. What is the output of 13%5? 1marks
+Output of 13 % 5: The output is 3, 
+as the modulus operator % returns the remainder of the division of 13 by 5.
+
+3. What is the format specifier for float in C? 1marks
+Format specifier for float in C: The format specifier for a float in C is %f.				  
